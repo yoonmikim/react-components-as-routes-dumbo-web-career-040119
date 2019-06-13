@@ -11,6 +11,15 @@ const Home = () => {
   );
 };
  
+ const About = () => {
+  return (
+    <div>
+      <h1>This is my about component!</h1>
+    </div>
+  );
+};
+ 
+ 
 // Step 2. Changed to have router coordinate what is displayed
 ReactDOM.render((
   <Router>
